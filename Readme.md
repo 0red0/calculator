@@ -1,2 +1,3 @@
-CALCULATOR 4
-Built a cool looking calculator with Javascript and Tailwind CSS
+CALCULATOR
+
+https://0red0.github.io/calculator/

@@ -1,0 +1,44 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #233;
+}
+.container {
+   max-width: 400px;
+   margin: 10vh auto 0;
+   background-color: #ddd;
+   box-shadow: 0 2px 12px black;
+}
+#display {
+   text-align: right;
+   height: 70px;
+   line-height: 70px;
+   padding: 16px 8px;
+   margin: 20px;
+   font-size: 25px;
+}
+.buttons {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   font-weight: bold;
+}
+.two-spans {
+   grid-column: 2 span;
+   background-color: rgb(199, 199, 255);
+}
+.button {
+   border-top: 1px solid black;
+   border-right: 1px solid black;
+   line-height: 80px;
+   text-align: center;
+   font-size: 25px;
+   cursor: pointer;
+   transition: 0.3s;
+   user-select: none;
+   &:hover {
+      background-color: rgba(68, 0, 228, 0.637);
+      color: white;
+   }
+}

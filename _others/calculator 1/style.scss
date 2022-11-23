@@ -3,21 +3,7 @@
 }
 body {
    font-family: Arial, sans-serif;
-   background-image: linear-gradient(
-      to right top,
-      #930032,
-      #891c35,
-      #7e2a39,
-      #74333c,
-      #683a3f,
-      #673a40,
-      #653b42,
-      #643b43,
-      #6d3545,
-      #752f48,
-      #7d264d,
-      #831c54
-   );
+   background-color: #222;
    color: white;
    margin: 0;
 }
@@ -31,12 +17,9 @@ body {
       margin-bottom: 30px;
    }
    #screen {
-      word-wrap: break-word;
-      word-break: break-all;
       font-family: monospace;
       border: 1px solid #ddd;
       width: 270px;
-      min-height: 60px;
       padding: 12px;
       border-radius: 10px;
       margin: 10px;
